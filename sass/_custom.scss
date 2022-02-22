@@ -14,5 +14,5 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* needs to find a way to just do titles */
 
 :not(.home) :is(h1, .h1) {
-    display: none;
+    display: none !important;
 }

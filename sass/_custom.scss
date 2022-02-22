@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-brand:hover::after {
+    color: #0D5459;
+}
+
+body.dark .navbar-brand:hover::after {
     color: #26ffa8;
 }
 
@@ -50,6 +54,11 @@ body {
     font-weight: 500;
 }
 
+/* code colours */
 code, code > span {
-    color: #4D002E;
+    color: #c7254e;
+}
+
+body.dark code, body.dark code > span {
+    color: #dee2e6;
 }

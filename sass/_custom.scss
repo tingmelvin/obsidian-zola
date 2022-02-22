@@ -6,10 +6,28 @@ div > a > span {
     word-break: break-all;
 }
 
-.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:active,
+/* font families */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Manrope";
 }
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:active {
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+/* add text + colours */
+
+.navbar-brand::after {
+    content:"\ Theme Documentation";
+    color: #00BD6E;
+}
+
+.navbar-brand:hover::after {
+    color: #26ffa8;
+}
+
+
 
 /* needs to find a way to just do titles */
 .docs-content > h1 {

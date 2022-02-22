@@ -70,11 +70,11 @@ def step3():
     content = None
     for section in sections:
         # Set section title as relative path to section
-        title = re.sub(r"^.*?content/docs/*", "", str(section))
+        title = re.sub(r"^.*?content/*", "", str(section))
 
-        # Call the root section "main"
+        # Call the root section "overview"
         if title == "":
-            title = "main"
+            title = "overview"
 
         sort_by = (
             "date"

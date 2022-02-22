@@ -1,32 +1,32 @@
 /** Import Bootstrap functions */
-@use "bootstrap/scss/functions";
+@import "bootstrap/scss/functions";
 
 /** Import theme variables */
-@use "common/variables";
+@import "common/variables";
 
 /** Import Bootstrap */
-@use "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
 
 /** Import theme styles */
-@use "common/global";
-@use "common/dark";
-@use "components/doks";
+@import "common/global";
+@import "common/dark";
+@import "components/doks";
 
 // @import "components/syntax";
-@use "components/code";
-@use "components/alerts";
-@use "components/buttons";
-@use "components/comments";
-@use "components/footnote";
-@use "components/forms";
-@use "components/images";
-@use "components/search";
-@use "components/tables";
-@use "layouts/footer";
-@use "layouts/header";
-@use "layouts/pages";
-@use "layouts/posts";
-@use "layouts/sidebar";
+@import "components/code";
+@import "components/alerts";
+@import "components/buttons";
+@import "components/comments";
+@import "components/footnote";
+@import "components/forms";
+@import "components/images";
+@import "components/search";
+@import "components/tables";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/sidebar";
 
 /* @import custom styles */
-@use "custom.scss";
+@import "custom.scss";

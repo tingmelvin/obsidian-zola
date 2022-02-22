@@ -12,7 +12,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 /* needs to find a way to just do titles */
-
+/*
 :not(.home) :is(h1, .h1) {
     display: none !important;
+}
+*/
+
+/* change code colour */
+code {
+    background-color: hsl(216, 10%, 90%);
+}
+
+/* change letter spacing */
+body {
+    letter-spacing: -0.015rem;
+  }
+
+/* change boldness of buttons */
+.btn {
+    font-weight: 500;
 }

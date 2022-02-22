@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "netlify.toml" >> __obsidian/.gitignore
-mkdir __site/content
+mkdir __site/content/docs
 
 wget https://github.com/zoni/obsidian-export/releases/download/v22.1.0/obsidian-export_Linux-x86_64.bin -O export.bin
 chmod +x export.bin

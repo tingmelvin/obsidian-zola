@@ -11,6 +11,8 @@ taxonomies = []
 
 [slugify]
 paths = "on"
+taxonomies = "on"
+anchors = "on"
 
 [search]
 include_content = true

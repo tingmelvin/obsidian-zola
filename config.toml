@@ -10,7 +10,7 @@ render_emoji = true
 taxonomies = []
 
 [slugify]
-paths = "off"
+paths = "on"
 
 [search]
 include_content = true

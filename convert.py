@@ -63,7 +63,7 @@ def step2():
 
 
 
-def step4():
+def step3():
     """
     Parse markdown files contents
     """
@@ -86,4 +86,3 @@ if __name__ == "__main__":
     step1()
     step2()
     step3()
-    step4()

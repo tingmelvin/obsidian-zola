@@ -1,8 +1,8 @@
 ---
-title: "___LANDING_TITLE___"
+title: "build.environment.LANDING_TITLE"
 
 extra:
-  lead: "___LANDING_DESCRIPTION___"
-  url: "/___LANDING_PAGE___"
-  url_button: "___LANDING_BUTTON___"
+  lead: "build.environment.LANDING_DESCRIPTION"
+  url: "/build.environment.LANDING_PAGE"
+  url_button: "build.environment.LANDING_BUTTON"
 ---

@@ -59,30 +59,6 @@ def step2():
     process_lines(ZOLA_DIR / "config.toml", sub)
     process_lines(ZOLA_DIR / "content" / "_index.md", sub)
 
-
-
-
-
-def step3():
-    """
-    Parse markdown files contents
-    """
-
-    print_step("PARSING MARKDOWN FILES")
-    md_files = list(DOCS_DIR.glob("**/*.md"))
-    for md_file in md_files:
-        content = [line.rstrip() for line in open(md_file, "r").readlines()]
-
-        if str(md_file).endswith("_index.md"):
-            continue
-
-        content = remove_frontmatters(content)
-        content = filter_lines(md_file, content)
-        content = write_frontmatters(md_file, content)
-        open(md_file, "w").write("\n".join(content))
-
-
 if __name__ == "__main__":
     step1()
     step2()
-    step3()

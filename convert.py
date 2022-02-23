@@ -78,8 +78,8 @@ def step3():
 
         sort_by = (
             "title"
-            if "SORT_BY" in environ and environ["SORT_BY"].lower() == "date"
-            else "title"
+            # if "SORT_BY" in environ and environ["SORT_BY"].lower() == "date"
+            # else "title"
         )
 
         # Print frontmatter to file

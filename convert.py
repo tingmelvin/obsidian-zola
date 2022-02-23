@@ -77,7 +77,7 @@ def step3():
             title = "overview"
 
         sort_by = (
-            "title"
+            "weight"
             # if "SORT_BY" in environ and environ["SORT_BY"].lower() == "date"
             # else "title"
         )

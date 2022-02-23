@@ -15,7 +15,7 @@
 					{% for s in index.subsections %}
 					{% set subsection = get_section(path=s) %}
 					{% if subsection.pages %}
-							<h3 id="{{ index.title }}">{{ subsection.title }}</h3>
+							<h3 id="{{ subsection.title }}">{{ subsection.title }}</h3>
 							<ul class="list-unstyled">
 							{% for page in subsection.pages %}                           
 									<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
